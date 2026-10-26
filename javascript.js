@@ -24,7 +24,7 @@ Du kan velge hva innholdet i variablene skal være. Prøv å bruke både let og
 const når du definerer variablene.
 ******************************************************************************/
 
-const userName = "Fredrik"
+const userFirstName = "Fredrik"
 let userScore = 0
 const highScore = false
 const game = ["Hearthstone", "Battlefield", "Counter-Strike", "Rocket League", "League of Legends"]
@@ -39,7 +39,19 @@ Prøv ut noen av operatorene vi så på i forrige forelesning:
 Skriv noen eksempler der du tester disse operatorene.
 ******************************************************************************/
 
-// Skriv koden for oppgave 3 her
+userScore += 100 //Added 100 points to userScore
+
+userScore *= 2 //Multiplied userScore by 2
+
+console.log (`Your score is ${userScore} including the 2x multiplier.`);
+
+userScore /= 2 //Divided userScore by 2
+
+console.log (`You lost your multiplier and your new score is ${userScore}.`)
+
+userScore ++ //Added one point to userScore
+
+console.log (`Your score is ${userScore}.`)
 
 /******************************************************************************
 OPPGAVE 4
