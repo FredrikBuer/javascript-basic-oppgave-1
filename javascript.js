@@ -105,5 +105,6 @@ at betingelsen din fungerer som den skal.
 ******************************************************************************/
 
 const userMale = false;
+const userTitle = userMale === true ? "Mr." : "Mrs.";
 
-// Skriv koden for oppgave 5 her
+console.log(userTitle);
