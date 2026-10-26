@@ -80,7 +80,14 @@ let userIsLoggedIn = false;
 let userIsBlocked = false;
 let goToPage = "";
 
-// Skriv koden for oppgave 4 her
+if (userName && userAge >= 18 && userIsBlocked === false){
+    userIsLoggedIn = true;
+    goToPage = "/home";
+    console.log (`Welcome ${userName}!!!`);
+}   else {
+    console.log ("Access denied!");
+}
+
 
 /******************************************************************************
 OPPGAVE 5
